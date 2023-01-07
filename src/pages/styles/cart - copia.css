@@ -1,0 +1,33 @@
+.cart {
+    padding-top: 70px;
+}
+
+.cart h2 {
+     padding-left: 5px;
+     font-size: 20px;
+     color: rgb(85, 85, 85);
+     margin-top: 10px;
+}
+.cart__total {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    max-width: 300px;
+}
+
+.cart__price::before{
+    content: '$';
+    margin-right: 6px;
+}
+.cart__btn {
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #F85555;
+    color: white;
+    margin-left: 10px;
+}
+.cart__total span {
+    color: #b1b0b0;
+}

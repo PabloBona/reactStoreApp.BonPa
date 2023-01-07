@@ -1,0 +1,12 @@
+.productInfo-flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.similar-products-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}

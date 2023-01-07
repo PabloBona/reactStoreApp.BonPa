@@ -1,0 +1,36 @@
+.price {
+    position: fixed;
+    top: 85px;
+    left: 20px;
+     
+}
+.price__hr {
+    width: 80%;
+    height: 2px;
+    background-color: #DCD9D9;
+    margin-right: 90%;
+    min-width: 200px;
+}
+.price__btn {
+    background-color: #F85555;
+    border-radius: 4px;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+}
+.price__input {
+    width: 80%;
+}
+@media (max-width: 850px) {
+    .price {
+        position: fixed;
+        transform: translateY(-150%);
+        transition: transform 0.5s;
+        z-index: 100;
+        background-color: #f8f8f8;
+        padding: 20px;
+    }
+    .menus-show {
+        transform: translateX(0);
+    }
+}

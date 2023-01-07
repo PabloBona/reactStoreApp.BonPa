@@ -1,0 +1,31 @@
+.category {
+    position: fixed;
+    left: 20px;
+    bottom: 100px;
+     
+    width: 240px;
+    cursor: pointer;
+}
+ 
+
+@media (max-width: 850px) {
+    .category {
+        position: fixed;
+        transform: translateX(-150%);
+        transition: transform 0.5s;
+        z-index: 100;
+        padding: 20px;
+        width: 340px;
+         
+    }
+    .menu-show {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
